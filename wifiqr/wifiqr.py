@@ -5,9 +5,9 @@
 #31.12.2019
 import sys
 import os
-import wifi_qrcode_created
-import wifi_qrcode_gener
-def main():
+from . import wifi_qrcode_created
+from . import wifi_qrcode_gener
+def wifiqr():
     xdgop = "xdg-open '/tmp/key.png'"
     print('1) Create Wifi QR Code')
     print('2) Generate Wifi QR Code')
@@ -32,5 +32,3 @@ def main():
         print("qrscanner Under processing...")
     else:
         print('\n\n!!!!!!!!!!!!!!!Something Wrong!!!!!!!!!!!!!!!\n\n')
-if __name__ == "__main__":
-    main()
