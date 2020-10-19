@@ -15,7 +15,7 @@ def ssidgen():
     print('\n')
     catt = lines[inputnum].rstrip("\n")
     # print(catt)
-    os.system(f" sudo cat /etc/NetworkManager/system-connections/"{str(catt)}" > /tmp/wifi.txt",)
+    os.system(f" sudo cat /etc/NetworkManager/system-connections/'{str(catt)}' > /tmp/wifi.txt",)
     file_handle.close()
     f = open("/tmp/wifi.txt",'r')
     with f as open_file:

@@ -1,3 +1,0 @@
-[console_scripts]
-wifiqr = wifiqr.wifiqr:wifiqr
-

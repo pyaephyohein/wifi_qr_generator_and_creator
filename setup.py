@@ -1,7 +1,7 @@
 import setuptools 
 setuptools.setup (
     name = "wifiqr",
-    version="1.0.1",
+    version="1.2.1",
     author="Pyae Phyo Hein",
     author_email="pyaephyohein.info.3326@gmail.com",
     descripton="Wifi Qr creater and generator for linux",
